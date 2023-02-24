@@ -25,42 +25,34 @@ Please see the `outputs` folder for the generated graphs.
 
 # Latest program plans 
 
-<style>
-img.program {
-    width: 100%;
-}
-</style>
-
 Also see [past](PAST.md) and proposed [future changes](CHANGES.md).
 
 ## Data Science and Analytics (updated AY20-21, also see [proposed changes](CHANGES.md))
 
 Manual:
 [PDF link](AY20-21/manual/DSA-mindmup-fa2019-ITEC4000.pdf)
-<img alt="Data Science and Analytics" src="AY20-21/manual/DSA-mindmup-fa2019-ITEC4000.png" 
-    class="program"/>
+![Data Science and Analytics](AY20-21/manual/DSA-mindmup-fa2019-ITEC4000.png)
 
 Graphviz:
 [PDF link](AY20-21/outputs/DataScienceAndAnalytics.pdf)
-<img alt="Data Science and Analytics" src="AY20-21/outputs/DataScienceAndAnalytics.png" 
-    class="program"/>
+![Data Science and Analytics](AY20-21/outputs/DataScienceAndAnalytics.png)
 
-## Digital Media
+## Digital Media (updated AY20-21)
 
-[PDF link](AY19-20/outputs/DigitalMedia.pdf)
-![Digital Media](AY19-20/outputs/DigitalMedia.png)
+[PDF link](AY20-21/outputs/DigitalMedia.pdf)
+![Digital Media](AY20-21/outputs/DigitalMedia.png)
 
-## Enterprise Systems
 
-[PDF link](AY19-20/outputs/EnterpriseSystems.pdf)
-![Enterprise Systems](AY19-20/outputs/EnterpriseSystems.png)
+## Enterprise Systems (no change since AY19-20)
 
-## Software Development
+[PDF link](AY20-21/outputs/EnterpriseSystems.pdf)
+![Enterprise Systems](AY20-21/outputs/EnterpriseSystems.png)
 
-[PDF link](AY19-20/outputs/SoftwareDevelopment.pdf)
-![Software Development](AY19-20/outputs/SoftwareDevelopment.png)
+## Software Development (updated AY20-21)
 
-## Systems Security
+![Software Development](AY20-21/outputs/SoftwareDevelopment.png)
 
-[PDF link](AY19-20/outputs/SystemsSecurity.pdf)
-![Systems Security](AY19-20/outputs/SystemsSecurity.png)
+## Systems Security (no change since AY19-20)
+
+[PDF link](AY20-21/outputs/SystemsSecurity.pdf)
+![Systems Security](AY20-21/outputs/SystemsSecurity.png)
