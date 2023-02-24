@@ -45,7 +45,7 @@ digraph G {
 
 
     subgraph clusteres {
-        label="GGC Information Technology\nEnterprise Systems Track\nAY19-20"
+        label="GGC Information Technology\nEnterprise Systems Track\nAY20-21"
 
         subgraph clusterrequired {
             label=""
