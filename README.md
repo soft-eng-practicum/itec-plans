@@ -1,37 +1,49 @@
 # itec-plans : a landing place for dependency graphs
 
-We use graphviz to convert our course dependency chains in different ITEC tracks to directed graphs
+We use `graphviz` to convert our course dependency chains in different ITEC tracks to directed graphs.
 
 # Steps
 Generate directed graphs with:
-<pre>
+
+```bash
 $ cd AY19-20
 $ dot -Tpdf DataScienceAndAnalytics.dot -o outputs/DataScienceAndAnalytics.pdf
 $ dot -Tpdf DigitalMedia.dot -o outputs/DigitalMedia.pdf
 $ dot -Tpdf EnterpriseSystems.dot -o outputs/EnterpriseSystems.pdf
 $ dot -Tpdf SoftwareDevelopment.dot -o outputs/SoftwareDevelopment.pdf
 $ dot -Tpdf SystemsSecurity.dot -o outputs/SystemsSecurity.pdf
-</pre>
+```
+
 or simply
 
-<pre>
+```bash
 $ cd AY19-20
 $ ./build.zsh
-</pre>
+```
 
-Please see the 'outputs' folder for the generated graphs
+Please see the `outputs` folder for the generated graphs.
 
-# Current plans (AY19-20)
+# Latest program plans 
 
-Also see [proposed future changes](CHANGES.md).
+<style>
+img.program {
+    width: 100%;
+}
+</style>
 
-## Data Science and Analytics
+Also see [past](PAST.md) and proposed [future changes](CHANGES.md).
 
-[PDF link](AY19-20/outputs/DataScienceAndAnalytics.pdf)
-![Data Science and Analytics](AY19-20/outputs/DataScienceAndAnalytics.png)
+## Data Science and Analytics (updated AY20-21, also see [proposed changes](CHANGES.md))
 
-Another drawing:
-![Data Science and Analytics](AY19-20/manual/DSA-mindmup.png)
+Manual:
+[PDF link](AY20-21/manual/DSA-mindmup-fa2019-ITEC4000.pdf)
+<img alt="Data Science and Analytics" src="AY20-21/manual/DSA-mindmup-fa2019-ITEC4000.png" 
+    class="program"/>
+
+Graphviz:
+[PDF link](AY20-21/outputs/DataScienceAndAnalytics.pdf)
+<img alt="Data Science and Analytics" src="AY20-21/outputs/DataScienceAndAnalytics.png" 
+    class="program"/>
 
 ## Digital Media
 

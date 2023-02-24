@@ -12,9 +12,9 @@ digraph G {
     itec2130[label = "ITEC 2130\nWeb Technologies"]
     itec2140[label = "ITEC 2140\nProgramming \nFundamentals" color=purple fontcolor=purple]
     itec2150[label = "ITEC 2150\nIntermediate Programming" color=red fontcolor=red]
-    itec2201[label = "ITEC 2201\nIntrodcution to\nInformation Systems" color=blue fontcolor=blue]
-    itec3100[label = "ITEC 3100\nIntrodcution to Networks"]
-    itec3200[label = "ITEC 3200\nIntrodcution to Databases"]
+    itec2201[label = "ITEC 2201\nIntroduction to\nInformation Systems" color=blue fontcolor=blue]
+    itec3100[label = "ITEC 3100\nIntroduction to Networks"]
+    itec3200[label = "ITEC 3200\nIntroduction to Databases"]
     itec3900[label = "ITEC 3900\nProfessional Practice\nand Ethics"]
     busa2105[label = "BUSA 2105\nCommunications in\nthe Business Environment"]
     busa2106[label = "BUSA 2106\nLegal Environment\nof Business"]
@@ -32,6 +32,7 @@ digraph G {
     itec3860[label = "ITEC 3860\nSoftware Development I"]
     itec3870[label = "ITEC 3870\nSoftware Development II"]
     itec4150[label = "ITEC 4150\nEnterprise Process Integration"]
+    itec4000[label = "ITEC 4000\nCloud Technologies"]
     itec4200[label = "ITEC 4200\nAdvanced Databases"]
     itec4210[label = "ITEC 4210\nInformation Analytics"]
     itec4220[label = "ITEC 4220\nAdvanced Data Analytics"]
@@ -84,6 +85,7 @@ digraph G {
             itec2201 -> itec3860 [color=blue]
             itec3860 -> itec3870
             itec2201 -> itec3900 [ltail=cluster22013100 color=blue]
+            itec3100 -> itec4000
             itec2150 -> itec4210
             itec3200 -> itec4210
             itec4210 -> itec4220
@@ -157,6 +159,7 @@ digraph G {
                         graph[style=solid]
                         color=black
                         itec3870
+                        itec4000
                         itec4200
                     }
                 }
