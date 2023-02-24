@@ -70,7 +70,6 @@ digraph G {
             itec2150 -> itec4150 [color=red]
             itec3200 -> itec4150
             itec3700 -> itec4150
-            itec2201 -> itec4750 [color=blue]
             itec4150 -> itec4750
             
             busa2106 -> busa3100
@@ -141,7 +140,7 @@ digraph G {
 
 
                 subgraph clusteritecoptions {
-                    label = "Pick from Enterprise or Software Sequence"
+                    label = "Select one sequence"
                     node [style=filled];
                     style=filled;
                     color="#AEF9F5"
@@ -158,8 +157,8 @@ digraph G {
                         label = "Software";
                         graph[style=solid]
                         color=black
-                        itec3870
-                        itec4000
+                        itec3870 
+                        itec4000 -> itec4200 [style="invis"]
                         itec4200
                     }
                 }

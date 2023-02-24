@@ -1,2 +1,5 @@
-*~ 	# Emacs backup files
-*.html 	# auto generated preview files
+# Emacs backup files
+*~
+
+# auto generated preview files
+*.html
